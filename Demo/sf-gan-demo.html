@@ -1,0 +1,537 @@
+
+<!-- saved from url=(0055)http://home.ustc.edu.cn/~ay8067/IEEETran_2019/demo.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charvctk_set="UTF-8">
+    <title>Sound demos from "Source-Filter-Based Generative Adversarial Neural Vocoder for High Fidelity Speech Synthesis"</title>
+</head>
+    <body>
+    <h2>Sound demos for "Source-Filter-Based Generative Adversarial Neural Vocoder for High Fidelity Speech Synthesis"</h2>
+    <!-- <p>&nbsp;</p> -->
+    <!-- <p>&nbsp;</p> -->
+    <p><strong>Abstract: </strong>This paper proposes a source-filter-based generative adversarial neural vocoder named SF-GAN, which achieves high-fidelity waveform generation from input acoustic features by introducing pitch-based source excitation signals to a neural filter framework. After generating excitation signals from pitches in the source module, we propose a resolution-wise conditional filter module to combine excitation signals with intermediate acoustic features at various resolutions which helps enlarge the receptive fields of the excitation signal and capture pitch information through frequency bands, and finally reconstruct the raw waveform. The experimental results show that our proposed SF-GAN outperforms the state-of-the-art HiFi-GAN and Fre-GAN on both analysis-synthesis (AS) and text-to-speech (TTS) tasks in terms of both objective and subjective evaluations.</p>
+    <a></a><div><a>
+      <h2>Analysis-Synthesis Task</h2>
+      <hr />
+      <p><h3> Single Speaker (LJ Speech Dataset) </h3></p>
+    </a>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">Ground Truth</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/A/A_01.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/A/A_02.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/A/A_03.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/A/A_04.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/A/A_05.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">HiFi-GAN v1</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/B/B_01.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/B/B_02.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/B/B_03.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/B/B_04.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/B/B_05.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">Fre-GAN v1</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/C/C_01.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/C/C_02.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/C/C_03.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/C/C_04.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/C/C_05.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">SF-GAN v1</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/D/D_01.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/D/D_02.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/D/D_03.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/D/D_04.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/D/D_05.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_01.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_02.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_03.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_04.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_05.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">SF-GAN v2</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/F/F_01.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/F/F_02.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/F/F_03.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/F/F_04.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/F/F_05.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+    <p>&nbsp;</p>
+      <p><h3> Unseen Speaker (VCTK Dataset) </h3></p>
+    </a>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">Ground Truth</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_01.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_05.wavv" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_07.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/A/A_09.wavv" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">HiFi-GAN v1</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/B/B_01.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/B/B_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/B/B_05.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/B/B_07.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/B/B_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">Fre-GAN v1</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/C/C_01.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/C/C_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/C/C_05.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/C/C_07.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/C/C_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">SF-GAN v1</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/D/D_01.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/D/D_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/D/D_05.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/D/D_07.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/D/D_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/E/E_01.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/E/E_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/E/E_05.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/E/E_07.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/E/E_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">SF-GAN v2</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/F/F_01.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/F/F_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/F/F_05.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/F/F_07.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_VCTK_AS/F/F_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+      <p><a><h2>TTS Task (LJ Speech Dataset) </h2></a></p>
+      <hr />
+    </a>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">Ground Truth</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/A/A_02.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/A/A_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/A/A_06.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/A/A_08.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/A/A_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">HiFi-GAN v1</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/B/B_02.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/B/B_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/B/B_06.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/B/B_08.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/B/B_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">Fre-GAN v1</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/C/C_02.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/C/C_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/C/C_06.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/C/C_08.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/C/C_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">SF-GAN v1</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/D/D_02.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/D/D_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/D/D_06.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/D/D_08.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/D/D_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/E/E_02.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/E/E_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/E/E_06.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/E/E_08.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/E/E_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <th width="150"><div align="left">SF-GAN v2</div></th>         
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/F/F_02.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/F/F_03.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/F/F_06.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/F/F_08.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_TTS/F/F_09.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+      <h2><a>Ablation studies (LJ Speech Dataset)</a></h2>
+      <hr />
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">SF-GAN v2 (baseline)</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/A/A_11.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/A/A_13.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/A/A_15.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/A/A_17.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/A/A_19.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">w/o DNN</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/B/B_11.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/B/B_13.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/B/B_15.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/B/B_17.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/B/B_19.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">w/o SubBlock</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/C/C_11.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/C/C_13.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/C/C_15.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/C/C_17.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/C/C_19.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">w/o PC-ResBlock</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/D/D_11.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/D/D_13.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/D/D_15.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/D/D_17.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_Ablation/D/D_19.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />      
+      <table>
+        <tbody>
+          <tr>
+            <th width="150"><div align="left">HiFi-GAN v2</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_01.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_02.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_03.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_04.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/MOS/MOS_LJSpeech_AS/E/E_05.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p></p>
+    </div>
+    </body></html>
