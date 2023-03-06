@@ -1,0 +1,477 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charvctk_set="UTF-8">
+    <title>Sound demos from "MP-SENet: A Speech Enhancement Model with Parallel Denoising of Magnitude and Phase Spectra"</title>
+</head>
+    <body>
+    <h2>Sound demos for "Proposed: A Speech Enhancement Model with Parallel Denoising of Magnitude and Phase Spectra"</h2>
+    <p><strong>Author: Anonym</strong></p>
+    <p><strong>Abstract: </strong> This paper proposes MP-SENet, a novel speech enhancement (SE) model which directly denoises magnitude and phase spectra in parallel.
+                                   The proposed MP-SENet adopts a codec architecture, in which the encoder and decoder are bridged by convolution-augmented transformers.
+                                   The encoder aims to encode time-frequency representations from the input noisy magnitude and phase spectra.
+                                   The decoder is composed of parallel magnitude mask decoder and phase decoder, directly recovering clean magnitude spectra and clean wrapped phase spectra by incorporating learnable sigmoid activation and parallel phase estimation architecture, respectively.
+                                   Multilevel losses defined on magnitude spectra, phase spectra, short-time complex spectra and time-domain waveforms are used to jointly train the MP-SENet model.
+                                   Experimental results show that our proposed MP-SENet achieves a PESQ of 3.50 on the public VoiceBank+DEMAND dataset and outperforms existing advanced SE methods.
+    </p>
+    <p><strong>Dataset: </strong> VoiceBank+DEMAND dataset which includes pairs of clean and pre-noised audio clips with a sampling rate of 48 kHz. 
+                                  The clean audio set is a subset of the Voice Bank corpus which consists of 11,572 audio clips from 28 speakers for training and 872 audio clips from two unseen speakers for testing. 
+                                  The clean audio clips are mixed with ten types of noise (eight types from the DEMAND database and two artificial types) at SNRs of 0, 5, 10, and 15 dB in the train set 
+                                  and five types of <font color="#FF0000">unseen</font> noise (i.e., <font color="#FF0000">living, office, bus, cafeteria, and psquare</font>) from the DEMAND database at SNRs of 2.5 dB, 7.5dB, 12.5 dB and 17.5 dB in the test set.
+                                  We resampled all the audio clips to 16 kHz in the experiments.
+    </p>
+    <a></a><div><a>
+      <h2>Comparation with advanced speech enhancement methods</h2>
+      <hr />
+      <!-- <p><h3> p232-032 </h3></p> -->
+    </a>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>
+            <th width="250">Natural noisy</th>         
+            <th width="250">Natural clean</th>
+            <th width="250">DB-AIAT</th>
+            <th width="250">CMGAN</th> 
+            <th width="250">MP-SENet</th>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p232_032.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p232_032.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p232_032.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p232_032.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p232_032.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"><div align="center">p232-032 (Cafeteria)</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p232_032.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p232_032.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p232_032.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p232_032.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p232_032.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p232_043.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p232_043.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p232_043.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p232_043.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p232_043.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"><div align="center">p232-043 (psquare)</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p232_043.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p232_043.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p232_043.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p232_043.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p232_043.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p232_056.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p232_056.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p232_056.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p232_056.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p232_056.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"><div align="center">p232-056 (Living)</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p232_056.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p232_056.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p232_056.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p232_056.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p232_056.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p257_367.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p257_367.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p257_367.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p257_367.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p257_367.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"><div align="center">p257-367 (Bus)</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p257_367.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p257_367.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p257_367.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p257_367.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p257_367.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p257_418.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p257_418.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p257_418.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p257_418.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p257_418.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"><div align="center">p257-418 (Office)</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Noisy/p257_418.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Clean/p257_418.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/DB-AIAT/p257_418.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/CMGAN/p257_418.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/methods_comparison/Proposed/p257_418.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p></p>
+    </div>
+    <a></a><div><a>
+      <h2>Ablation study</h2>
+      <hr />
+      <!-- <p><h3> p232-032 </h3></p> -->
+    </a>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>
+            <th width="250">Natural noisy</th>         
+            <th width="250">Natural clean</th>
+            <th width="250">MP-SENet</th>
+            <th width="250">w/o Mag. compression</th>
+            <th width="250">w/o LSigmoid</th>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Noisy/p232_052.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Clean/p232_052.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Proposed/p232_052.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_mag_compression/p232_052.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_lsigmoid/p232_052.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"><div align="center">p232-052</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Noisy/p232_052.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Clean/p232_052.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Proposed/p232_052.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_mag_compression/p232_052.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_lsigmoid/p232_052.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>
+            <th width="250">w/o Phase modeling</th>
+            <th width="250">w/o Phase loss</th>
+            <th width="250">w/o RI loss</th> 
+            <th width="250">w/o Metric Disc.</th> 
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_modeling/p232_052.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_loss/p232_052.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_ri_loss/p232_052.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_disc/p232_052.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_modeling/p232_052.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_loss/p232_052.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_ri_los/p232_052.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_disc/p232_052.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>
+            <th width="250">Natural noisy</th>         
+            <th width="250">Natural clean</th>
+            <th width="250">MP-SENet</th>
+            <th width="250">w/o Mag. compression</th>
+            <th width="250">w/o LSigmoid</th>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Noisy/p257_082.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Clean/p257_082.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Proposed/p257_082.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_mag_compression/p257_082.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_lsigmoid/p257_082.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"><div align="center">p257-082</div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Noisy/p257_082.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Clean/p257_082.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/Proposed/p257_082.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_mag_compression/p257_082.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_lsigmoid/p257_082.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>
+            <th width="250">w/o Phase modeling</th>
+            <th width="250">w/o Phase loss</th>
+            <th width="250">w/o RI loss</th> 
+            <th width="250">w/o Metric Disc.</th> 
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></th>         
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_modeling/p257_082.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_loss/p257_082.png" controls="controls" width="250px" height="134px">
+            </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_ri_loss/p257_082.png" controls="controls" width="250px" height="134px">
+          </td>
+            <td>
+                <img src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_disc/p257_082.png" controls="controls" width="250px" height="134px">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th width="200"></div></th>         
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_modeling/p257_082.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_phase_loss/p257_082.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_ri_los/p257_082.wav" type="audio/wav">
+            </audio></td> 
+            <td><audio controls="">
+                <source src="https://yxlu-0102.github.io/Demo/SpeechEnhancement/ablation_study/wo_disc/p257_082.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p></p>
+      </div>
+    </body></html>
