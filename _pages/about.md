@@ -38,7 +38,7 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/publications/ap-bwe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ACM TASLP 2024</div><img src='images/publications/ap-bwe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards High-Quality and Efficient Speech Bandwidth Extension with Parallel Amplitude and Phase Prediction](https://arxiv.org/pdf/2401.06387)
@@ -71,7 +71,7 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 </div>
 </div>
 
-- ``IEEE/ACM TASLP 2024`` [APCodec: A Neural Audio Codec with Parallel Amplitude and Phase Spectrum Encoding and Decoding](https://arxiv.org/pdf/2402.10533), Yang Ai, Xiao-Hang Jiang, **Ye-Xin Lu**, et al.
+- ``IEEE/ACM TASLP 2024`` [APCodec: A Neural Audio Codec with Parallel Amplitude and Phase Spectrum Encoding and Decoding](https://arxiv.org/pdf/2402.10533), Yang Ai, Xiao-Hang Jiang, **Ye-Xin Lu**, Hui-Peng Du, Zhen-Hua Ling.
 - ``IEEE SPL`` [Long-frame-shift Neural Speech Phase Prediction with Spectral Continuity Enhancement and Interpolation Error Compensation](https://arxiv.org/pdf/2308.08850), Yang Ai, **Ye-Xin Lu**, Zhen-Hua Ling.
 - ``SLT 2024`` [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://arxiv.org/pdf/2411.00464), Xiao-Hang Jiang, Yang Ai, Rui-Chen Zheng, Hui-Peng Du, **Ye-Xin Lu**, Zhen-Hua Ling.
 - ``SLT 2024`` [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://arxiv.org/pdf/2410.04990), Fei Liu, Yang Ai, Hui-Peng Du, **Ye-Xin Lu**, Rui-Chen Zheng, Zhen-Hua Ling.
