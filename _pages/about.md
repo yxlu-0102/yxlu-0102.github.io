@@ -30,8 +30,7 @@ I am currently a fourth-year Eng.D student at National Engineering Research Cent
 
 **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling
 
-[**Demo Page**](https://yxlu-0102.github.io/MP-SENet)
-[![](https://img.shields.io/github/stars/yxlu-0102/MP-SENet?style=social&label=MP-SENet Stars)](https://github.com/yxlu-0102/MP-SENet)
+[**Demo Page**](https://yxlu-0102.github.io/MP-SENet)<br>[![](https://img.shields.io/github/stars/yxlu-0102/MP-SENet?style=social&label=MP-SENet Stars)](https://github.com/yxlu-0102/MP-SENet)
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
