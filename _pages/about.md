@@ -34,8 +34,8 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 
 **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling
 
-[**Demo Page**](https://yxlu-0102.github.io/MP-SENet)<br>[![](https://img.shields.io/github/stars/yxlu-0102/MP-SENet?style=social&label=MP-SENet Stars)](https://github.com/yxlu-0102/MP-SENet)
-- In this paper, we propose a novel speech enhancement network that explicitly enhances magnitude and phase spectra in parallel, dubbed MP-SENet.
+[**Demo Page**](https://yxlu-0102.github.io/MP-SENet) \| [![](https://img.shields.io/github/stars/yxlu-0102/MP-SENet?style=social&label=MP-SENet Stars)](https://github.com/yxlu-0102/MP-SENet)
+- In this paper, we propose a novel Speech Enhancement Network that explicitly enhances Magnitude and Phase spectra in parallel, dubbed MP-SENet.
 - MP-SENet is the first speech enhancement model that realizes explicit phase estimation and optimization by using phase parallel estimation architecture and anti-wrapping losses.
 - MP-SENet mitigates the compensation effect between the magnitude and phase by explicit phase estimation, elevating the quality of enhanced speech to a new level.
 </div>
@@ -49,6 +49,9 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 **Ye-Xin Lu**, Yang Ai, Hui-Peng Du, Zhen-Hua Ling
 
 [**Demo Page**](https://yxlu-0102.github.io/AP-BWE)<br>[![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/AP-BWE)
+- In this paper, we propose a generative adversarial network-based speech bandwidth extension (BWE) model with the parallel prediction of Amplitude and Phase spectra, dubbed AP-BWE.
+- AP-BWE realizes high-quality speech BWE by explicit amplitude-phase estimation and multi-resolution amplitude-phase discrimination.
+- AP-BWE realizes efficient speech BWE by using all-convolutional architecture and all-frame-level operations.
 </div>
 </div>
 
