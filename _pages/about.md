@@ -69,9 +69,12 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 
 - ``IEEE/ACM TASLP 2024`` [APCodec: A Neural Audio Codec with Parallel Amplitude and Phase Spectrum Encoding and Decoding](https://arxiv.org/pdf/2402.10533), Yang Ai, Xiao-Hang Jiang, **Ye-Xin Lu**, et al.
 - ``IEEE SPL`` [Long-frame-shift Neural Speech Phase Prediction with Spectral Continuity Enhancement and Interpolation Error Compensation](https://arxiv.org/pdf/2308.08850), Yang Ai, **Ye-Xin Lu**, Zhen-Hua Ling.
-- ``INTERSPEECH 2024`` [BiVocoder: A Bidirectional Neural Vocoder Integrating Feature Extraction and Waveform Generation](https://www.isca-archive.org/interspeech_2024/du24_interspeech.html), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
 - ``SLT 2024`` [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://arxiv.org/pdf/2411.00464), Xiao-Hang Jiang, Yang Ai, Rui-Chen Zheng, Hui-Peng Du, **Ye-Xin Lu**, Zhen-Hua Ling.
 - ``SLT 2024`` [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://arxiv.org/pdf/2410.04990), Fei Liu, Yang Ai, Hui-Peng Du, **Ye-Xin Lu**, Rui-Chen Zheng, Zhen-Hua Ling.
+- ``INTERSPEECH 2024`` [BiVocoder: A Bidirectional Neural Vocoder Integrating Feature Extraction and Waveform Generation](https://www.isca-archive.org/interspeech_2024/du24_interspeech.html), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
+- ``NCMMSC 2023`` [APNet2: High-Quality and High-Efficiency Neural Vocoder with Direct Prediction of Amplitude and Phase Spectra](https://arxiv.org/pdf/2311.11545), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
+- ``NCMMSC 2022`` [Source-Filter-Based Generative Adversarial Neural Vocoder for High Fidelity Speech Synthesis](https://arxiv.org/pdf/2304.13270), **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
+
 
 # 📖 Educations
 - *2021.09 - 2026.06 (Expected)*, Eng.D, School of Infomation Science and Technology, University of Science and Technology of China, Hefei.
