@@ -48,7 +48,7 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 
 **Ye-Xin Lu**, Yang Ai, Hui-Peng Du, Zhen-Hua Ling
 
-[**Demo Page**](https://yxlu-0102.github.io/AP-BWE)<br>[![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/AP-BWE)
+[**Demo Page**](https://yxlu-0102.github.io/AP-BWE) \| [![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/AP-BWE)
 - In this paper, we propose a generative adversarial network-based speech bandwidth extension (BWE) model with the parallel prediction of Amplitude and Phase spectra, dubbed AP-BWE.
 - AP-BWE realizes high-quality speech BWE by explicit amplitude-phase estimation and multi-resolution amplitude-phase discrimination.
 - AP-BWE realizes efficient speech BWE by using all-convolutional architecture and all-frame-level operations.
@@ -63,6 +63,10 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 **Ye-Xin Lu**, Yang Ai, Zehng-Yan Sheng, Zhen-Hua Ling
 
 [**Demo Page**](https://yxlu-0102.github.io/MS-BWE-demo)
+- In this paper, we propose a multi-stage speech BWE model named MS-BWE, which can handle a set of source and target sampling rate pairs and achieve flexible extensions of frequency bandwidth.
+- MS-BWE comprises a cascade of BWE blocks, with each block featuring a dual-stream architecture to realize amplitude and phase extension, progressively painting the speech frequency bands stage
+by stage.
+- We adopt the teacher-forcing strategy to mitigate the discrepancy between training and inference. 
 </div>
 </div>
 
@@ -74,6 +78,9 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 **Ye-Xin Lu**, Hui-Peng Du, Zheng-Yan Sheng, Yang Ai, Zhen-Hua Ling
 
 [**Demo Page**](http://yxlu-0102.github.io/IDEA-TTS)
+- In this paper, we propose an Incremental Disentanglement-based Environment-Aware zero-shot text-to-speech (TTS) method, dubbed IDEA-TTS, that can synthesize speech for unseen speakers while preserving the acoustic characteristics of a given environment reference speech.
+- IDEA-TTS is based on the VITS backbone. To effectively disentangle the environment, speaker, and text factors, we propose an incremental disentanglement process, where an environment estimator is designed to first decompose the environmental spectrogram into an environment mask and an enhanced spectrogram. The environment mask is then processed by an environment encoder to extract environment embeddings, while the enhanced spectrogram facilitates the subsequent disentanglement of the speaker and text factors with the condition of the speaker embeddings, which are extracted from the environmental speech using a pretrained environment-robust speaker encoder. Finally, both the speaker and environment embeddings are conditioned into the decoder for environment-aware speech generation.
+- IDEA-TTS is capable of environment-robust TTS, environment-aware TTS, and environment conversion with a single model.
 </div>
 </div>
 
