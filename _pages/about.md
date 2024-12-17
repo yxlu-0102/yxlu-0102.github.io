@@ -18,12 +18,12 @@ redirect_from:
 
 Hi there, this is Ye-Xin Lu (鲁叶欣).
 
-I graduated from [School of the Gifted Young](https://sgy.ustc.edu.cn), University of Science and Technology of China (USTC) with a bachelor degree in electronic information engineering.
-I am currently a fourth-year Eng.D student at National Engineering Research Center for Speech and Language Information Processing ([NERC-SLIP](http://nelslip.ustc.edu.cn/main.htm)) of USTC, supervised by Prof. [Zhen-Hua Ling (凌震华)](https://staff.ustc.edu.cn/~zhling). My main research interests lie in speech synthesis, speech enhancement, and speech encoding.
+I graduated from [School of the Gifted Young](https://sgy.ustc.edu.cn), University of Science and Technology of China (USTC) with a bachelor's degree in electronic information engineering.
+I am currently a fourth-year Eng.D student at the National Engineering Research Center for Speech and Language Information Processing ([NERC-SLIP](http://nelslip.ustc.edu.cn/main.htm)) of USTC, supervised by Prof. [Zhen-Hua Ling (凌震华)](https://staff.ustc.edu.cn/~zhling). My main research interests lie in speech synthesis, speech enhancement, and speech encoding.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2023</div><img src='images/mpsenet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MP-SENet: A Speech Enhancement Model with Parallel Denoising of Magnitude and Phase Spectra](https://www.isca-archive.org/interspeech_2023/lu23e_interspeech.pdf)
@@ -31,14 +31,12 @@ I am currently a fourth-year Eng.D student at National Engineering Research Cent
 **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling
 
 [**Demo Page**](https://yxlu-0102.github.io/MP-SENet)<br>[![](https://img.shields.io/github/stars/yxlu-0102/MP-SENet?style=social&label=MP-SENet Stars)](https://github.com/yxlu-0102/MP-SENet)
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 📖 Educations
-- *2021.09 - 2026.06 (Expected)*, Eng.D, School pf Infomation Science and Technology, University of Science and Technology of China, Hefei, China.
+- *2021.09 - 2026.06 (Expected)*, Eng.D, School of Infomation Science and Technology, University of Science and Technology of China, Hefei, China.
 - *2017.08 - 2021.06*, Undergraduate, School of the Gifted Young, University of Science and Technology of China, Hefei, China.
 - *2014.09 - 2017.06*, Anhui Nanling High School, Wuhu, China. 
 
