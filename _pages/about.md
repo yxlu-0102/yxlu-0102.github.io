@@ -79,7 +79,6 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 
 [**Demo Page**](http://yxlu-0102.github.io/IDEA-TTS)
 - In this paper, we propose an Incremental Disentanglement-based Environment-Aware zero-shot text-to-speech (TTS) method, dubbed IDEA-TTS, that can synthesize speech for unseen speakers while preserving the acoustic characteristics of a given environment reference speech.
-- IDEA-TTS is based on the VITS backbone. To effectively disentangle the environment, speaker, and text factors, we propose an incremental disentanglement process, where an environment estimator is designed to first decompose the environmental spectrogram into an environment mask and an enhanced spectrogram. The environment mask is then processed by an environment encoder to extract environment embeddings, while the enhanced spectrogram facilitates the subsequent disentanglement of the speaker and text factors with the condition of the speaker embeddings, which are extracted from the environmental speech using a pretrained environment-robust speaker encoder. Finally, both the speaker and environment embeddings are conditioned into the decoder for environment-aware speech generation.
 - IDEA-TTS is capable of environment-robust TTS, environment-aware TTS, and environment conversion with a single model.
 </div>
 </div>
