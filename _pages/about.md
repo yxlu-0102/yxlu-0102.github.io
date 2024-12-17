@@ -35,6 +35,9 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling
 
 [**Demo Page**](https://yxlu-0102.github.io/MP-SENet)<br>[![](https://img.shields.io/github/stars/yxlu-0102/MP-SENet?style=social&label=MP-SENet Stars)](https://github.com/yxlu-0102/MP-SENet)
+- In this paper, we propose a novel speech enhancement network that explicitly enhances magnitude and phase spectra in parallel, dubbed MP-SENet.
+- MP-SENet is the first speech enhancement model that realizes explicit phase estimation and optimization by using phase parallel estimation architecture and anti-wrapping losses.
+- MP-SENet mitigates the compensation effect between the magnitude and phase by explicit phase estimation, elevating the quality of enhanced speech to a new level.
 </div>
 </div>
 
