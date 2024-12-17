@@ -69,9 +69,9 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 
 
 # 📖 Educations
-- *2021.09 - 2026.06 (Expected)*, Eng.D, School of Infomation Science and Technology, University of Science and Technology of China, Hefei, China.
-- *2017.08 - 2021.06*, Undergraduate, School of the Gifted Young, University of Science and Technology of China, Hefei, China.
-- *2014.09 - 2017.06*, Anhui Nanling High School, Wuhu, China. 
+- *2021.09 - 2026.06 (Expected)*, Eng.D, School of Infomation Science and Technology, University of Science and Technology of China, Hefei.
+- *2017.08 - 2021.06*, Undergraduate, School of the Gifted Young, University of Science and Technology of China, Hefei.
+- *2014.09 - 2017.06*, Anhui Nanling High School, Wuhu. 
 
 # 💻 Internships
 - Looking for 3-6 months internship opportunities of large-language-model (LLM) based speech synthesis.
