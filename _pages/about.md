@@ -29,6 +29,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 [MP-SENet: A Speech Enhancement Model with Parallel Denoising of Magnitude and Phase Spectra](https://www.isca-archive.org/interspeech_2023/lu23e_interspeech.pdf)
 
 **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling
+
 [**Demo Page**](https://yxlu-0102.github.io/MP-SENet)<br>[![](https://img.shields.io/github/stars/yxlu-0102/MP-SENet?style=social&label=MP-SENet Stars)](https://github.com/yxlu-0102/MP-SENet)
 </div>
 </div>
@@ -39,6 +40,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 [Towards High-Quality and Efficient Speech Bandwidth Extension with Parallel Amplitude and Phase Prediction](https://arxiv.org/pdf/2401.06387)
 
 **Ye-Xin Lu**, Yang Ai, Hui-Peng Du, Zhen-Hua Ling
+
 [**Demo Page**](https://yxlu-0102.github.io/AP-BWE)<br>[![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/AP-BWE)
 </div>
 </div>
@@ -47,6 +49,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 <div class='paper-box-text' markdown="1">
 
 [Multi-Stage Speech Bandwidth Extension with Flexible Sampling Rates Control](https://www.isca-archive.org/interspeech_2024/lu24_interspeech.pdf)
+
 **Ye-Xin Lu**, Yang Ai, Zehng-Yan Sheng, Zhen-Hua Ling
 
 [**Demo Page**](https://yxlu-0102.github.io/MS-BWE-demo)
@@ -57,6 +60,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 <div class='paper-box-text' markdown="1">
 
 Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis
+
 **Ye-Xin Lu**, Hui-Peng Du, Zheng-Yan Sheng, Yang Ai, Zhen-Hua Ling
 
 [**Demo Page**](http://yxlu-0102.github.io/IDEA-TTS)
