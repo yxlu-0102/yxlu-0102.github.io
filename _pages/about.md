@@ -19,7 +19,10 @@ redirect_from:
 Hi there, this is Ye-Xin Lu (鲁叶欣).
 
 I graduated from [School of the Gifted Young](https://sgy.ustc.edu.cn), University of Science and Technology of China (USTC) with a bachelor's degree in electronic information engineering.
-I am currently a fourth-year Eng.D student at the National Engineering Research Center for Speech and Language Information Processing ([NERC-SLIP](http://nelslip.ustc.edu.cn/main.htm)) of USTC, supervised by Prof. [Zhen-Hua Ling (凌震华)](https://staff.ustc.edu.cn/~zhling). My main research interests lie in speech synthesis, speech enhancement, and speech encoding.
+
+I am currently a fourth-year Eng.D student at the National Engineering Research Center for Speech and Language Information Processing ([NERC-SLIP](http://nelslip.ustc.edu.cn/main.htm)) of USTC, supervised by Prof. [Zhen-Hua Ling (凌震华)](https://staff.ustc.edu.cn/~zhling). 
+
+My main research interests lie in speech synthesis, speech enhancement, and speech encoding.
 
 # 📝 Publications 
 
