@@ -35,6 +35,48 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 </div>
 
 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/publications/apbwe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards High-Quality and Efficient Speech Bandwidth Extension with Parallel Amplitude and Phase Prediction](https://arxiv.org/pdf/2401.06387)
+
+**Ye-Xin Lu**, Yang Ai, Hui-Peng Du, Zhen-Hua Ling
+
+[**Demo Page**](https://yxlu-0102.github.io/AP-BWE)<br>[![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/AP-BWE)
+</div>
+</div>
+
+
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INERSPEECH 2024</div><img src='images/publications/apbwe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Multi-Stage Speech Bandwidth Extension with Flexible Sampling Rates Control](https://www.isca-archive.org/interspeech_2024/lu24_interspeech.pdf)
+
+**Ye-Xin Lu**, Yang Ai, Zehng-Yan Sheng, Zhen-Hua Ling
+
+[**Demo Page**](https://yxlu-0102.github.io/MS-BWE-demo)
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICASSP 2025</div><img src='images/publications/mpsenet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis
+
+**Ye-Xin Lu**, Hui-Peng Du, Zheng-Yan Sheng, Yang Ai, Zhen-Hua Ling
+
+[**Demo Page**](http://yxlu-0102.github.io/IDEA-TTS)
+</div>
+</div>
+
+
 # 📖 Educations
 - *2021.09 - 2026.06 (Expected)*, Eng.D, School of Infomation Science and Technology, University of Science and Technology of China, Hefei, China.
 - *2017.08 - 2021.06*, Undergraduate, School of the Gifted Young, University of Science and Technology of China, Hefei, China.
