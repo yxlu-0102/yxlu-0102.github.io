@@ -45,7 +45,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INERSPEECH 2024</div><img src='images/publications/apbwe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INERSPEECH 2024</div><img src='images/publications/msbwe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multi-Stage Speech Bandwidth Extension with Flexible Sampling Rates Control](https://www.isca-archive.org/interspeech_2024/lu24_interspeech.pdf)
