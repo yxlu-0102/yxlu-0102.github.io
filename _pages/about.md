@@ -67,8 +67,6 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 </div>
 </div>
 
-- ``AAAI 2024``` [Emotion Rendering for Conversational Speech Synthesis with Heterogeneous Graph-Based Context Modeling](https://arxiv.org/abs/2312.11947), Rui Liu, Yifan Hu, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/walker-hyf/ECSS?style=social&label=Code+Stars)](https://github.com/walker-hyf/ECSS)
-
 - ``IEEE/ACM TASLP 2024`` [APCodec: A Neural Audio Codec with Parallel Amplitude and Phase Spectrum Encoding and Decoding](https://arxiv.org/pdf/2402.10533), Yang Ai, Xiao-Hang Jiang, **Ye-Xin Lu**, et al.
 - ``IEEE SPL`` [Long-frame-shift Neural Speech Phase Prediction with Spectral Continuity Enhancement and Interpolation Error Compensation](https://arxiv.org/pdf/2308.08850), Yang Ai, **Ye-Xin Lu**, Zhen-Hua Ling.
 - ``INTERSPEECH 2024`` [BiVocoder: A Bidirectional Neural Vocoder Integrating Feature Extraction and Waveform Generation](https://www.isca-archive.org/interspeech_2024/du24_interspeech.html), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
