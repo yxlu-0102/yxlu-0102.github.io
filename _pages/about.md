@@ -34,9 +34,6 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 </div>
 </div>
 
-
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/publications/apbwe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -47,10 +44,6 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 [**Demo Page**](https://yxlu-0102.github.io/AP-BWE)<br>[![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/AP-BWE)
 </div>
 </div>
-
-
-
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">INERSPEECH 2024</div><img src='images/publications/apbwe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -63,9 +56,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 </div>
 </div>
 
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICASSP 2025</div><img src='images/publications/mpsenet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICASSP 2025</div><img src='images/publications/ideatts.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis
