@@ -23,7 +23,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2023</div><img src='images/mpsenet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2023</div><img src='images/publications/mpsenet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MP-SENet: A Speech Enhancement Model with Parallel Denoising of Magnitude and Phase Spectra](https://www.isca-archive.org/interspeech_2023/lu23e_interspeech.pdf)
