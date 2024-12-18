@@ -23,6 +23,8 @@ I graduated from [School of the Gifted Young](https://sgy.ustc.edu.cn), Universi
 
 I am currently a fourth-year Eng.D student at the National Engineering Research Center for Speech and Language Information Processing ([NERC-SLIP](http://nelslip.ustc.edu.cn/main.htm)) of USTC, supervised by Prof. [Zhen-Hua Ling (凌震华)](https://staff.ustc.edu.cn/~zhling). 
 
+<a href='https://scholar.google.com.hk/citations?user=FETrS_cAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+
 My main research interests lie in speech synthesis, speech enhancement, and speech encoding.
 
 # 📝 Publications 
