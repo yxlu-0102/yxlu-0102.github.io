@@ -61,7 +61,7 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 
 [Multi-Stage Speech Bandwidth Extension with Flexible Sampling Rates Control](https://www.isca-archive.org/interspeech_2024/lu24_interspeech.pdf)
 
-**Ye-Xin Lu**, Yang Ai, Zehng-Yan Sheng, Zhen-Hua Ling
+**Ye-Xin Lu**, Yang Ai, Zheng-Yan Sheng, Zhen-Hua Ling
 
 [**Demo Page**](https://yxlu-0102.github.io/MS-BWE-demo)
 - In this paper, we propose a multi-stage speech BWE model named MS-BWE, which can handle a set of source and target sampling rate pairs and achieve flexible extensions of frequency bandwidth.
