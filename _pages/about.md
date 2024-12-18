@@ -71,7 +71,7 @@ by stage.
 </div>
 </div>
 
-## 👄 Speech Synthesis
+## 🗣️ Speech Synthesis
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICASSP 2025</div><img src='images/publications/idea-tts.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -103,7 +103,7 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 
 </div>
 
-# 📖 Educations
+# 🎓 Educations
 - *2021.09 - 2026.06 (Expected)*, Eng.D, School of Infomation Science and Technology, University of Science and Technology of China, Hefei.
 - *2017.08 - 2021.06*, Undergraduate, School of the Gifted Young, University of Science and Technology of China, Hefei.
 - *2014.09 - 2017.06*, Anhui Nanling High School, Wuhu. 
