@@ -96,6 +96,8 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 
 ### Conference
 
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INERSPEECH 2024</span> [A Low-Bitrate Neural Audio Codec Framework with Bandwidth Reduction and Recovery for High-Sampling-Rate Waveforms](https://www.isca-archive.org/interspeech_2024/ai24b_interspeech.pdf), Yang Ai, **Ye-Xin Lu**, Xiao-Hang Jiang, Zheng-Yan Sheng, Rui-Chen Zheng, Zhen-Hua Ling.
+
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INERSPEECH 2024</span> [BiVocoder: A Bidirectional Neural Vocoder Integrating Feature Extraction and Waveform Generation](https://www.isca-archive.org/interspeech_2024/du24_interspeech.pdf), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">NCMMSC 2023</span> [APNet2: High-Quality and High-Efficiency Neural Vocoder with Direct Prediction of Amplitude and Phase Spectra](https://arxiv.org/pdf/2311.11545), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
