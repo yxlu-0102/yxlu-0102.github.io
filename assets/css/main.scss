@@ -77,14 +77,8 @@ button:hover {
     background-color: #3700B3;
 }
 
-.masthead__menu-item--theme-toggle {
-  display: table-cell; /* 确保按钮是表格单元格 */
-  vertical-align: middle; /* 垂直居中按钮 */
-  padding-left: 10px; /* 给按钮添加一些左边距 */
-}
-
 .theme-toggle-button {
-  display: inline-block;
+  display: table-cell;
   background-color: transparent;  /* 无背景色 */
   border: none;                    /* 无边框 */
   color: var(--text-color);         /* 默认字体颜色 */
