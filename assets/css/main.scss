@@ -78,25 +78,6 @@ button:hover {
     background-color: #3700B3;
 }
 
-/* 使 masthead__inner-wrap 使用 flex 布局 */
-.masthead__inner-wrap {
-  display: flex;
-  justify-content: flex-start; /* 左对齐 */
-  align-items: center; /* 垂直居中对齐 */
-  width: 100%;
-}
-
-/* 使 masthead__menu 中的链接项（包括主题切换按钮）水平排列 */
-.masthead__menu ul {
-  display: flex;
-  align-items: center; /* 确保所有项垂直居中 */
-}
-
-/* 确保主题切换按钮在 homepage 左边 */
-.masthead__menu-item--theme-toggle {
-  margin-right: 20px; /* 调整按钮与 Homepage 链接的间距 */
-}
-
 .theme-toggle-button {
   background-color: transparent;  /* 无背景色 */
   border: none;                    /* 无边框 */
