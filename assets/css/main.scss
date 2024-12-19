@@ -78,6 +78,7 @@ button:hover {
 }
 
 .theme-toggle-button {
+  display: inline-block;
   background-color: transparent;  /* 无背景色 */
   border: none;                    /* 无边框 */
   color: var(--text-color);         /* 默认字体颜色 */
