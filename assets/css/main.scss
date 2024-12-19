@@ -78,36 +78,6 @@ button:hover {
     background-color: #3700B3;
 }
 
-/* 主题切换按钮样式 */
-.theme-toggle-button {
-  background-color: transparent;  /* 无背景色 */
-  border: none;                    /* 无边框 */
-  color: var(--text-color);         /* 默认字体颜色 */
-  font-size: 24px;                  /* 图标大小 */
-  cursor: pointer;                 /* 鼠标指针 */
-  padding: 10px;                    /* 内边距 */
-  transition: color 0.3s ease;      /* 按钮文字颜色过渡 */
-  outline: none;                   /* 去除焦点轮廓 */
-
-  /* 图标的样式 */
-  i {
-    font-size: 24px;
-    transition: opacity 0.3s ease;  /* 图标透明度过渡 */
-  }
-
-  &:hover {
-    color: var(--link-color);       /* 鼠标悬停时改变图标颜色 */
-    background-color: transparent;  /* 确保没有背景色 */
-  }
-
-  &:active,
-  &:focus {
-    background-color: transparent; /* 去除点击时的背景颜色 */
-    box-shadow: none;               /* 去除点击时的阴影效果 */
-    color: var(--link-color);       /* 保持点击时颜色 */
-  }
-}
-
 .paper-box {
     display: flex;
     justify-content: left;
@@ -174,4 +144,60 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* Add flexbox to align menu and theme toggle button */
+.masthead__inner-wrap {
+  display: flex;                /* 使用flex布局 */
+  justify-content: space-between; /* 导航栏与按钮在两侧 */
+  align-items: center;          /* 垂直居中对齐 */
+}
+
+.masthead__menu {
+  display: flex;                /* 使用flex布局 */
+  align-items: center;          /* 垂直居中对齐 */
+}
+
+.masthead__menu ul {
+  display: flex;                /* 保证导航项在一行显示 */
+  list-style: none;             /* 去掉默认的列表样式 */
+}
+
+.masthead__menu-item {
+  margin-right: 1rem;           /* 导航项之间的间隔 */
+}
+
+.masthead__theme-toggle {
+  display: flex;                /* 保证按钮和图标在一行显示 */
+  align-items: center;          /* 垂直居中对齐 */
+  margin-left: 1rem;            /* 按钮与导航栏之间的间隔 */
+}
+
+.theme-toggle-button {
+  background-color: transparent;  /* 无背景色 */
+  border: none;                    /* 无边框 */
+  color: var(--text-color);         /* 默认字体颜色 */
+  font-size: 24px;                  /* 图标大小 */
+  cursor: pointer;                 /* 鼠标指针 */
+  padding: 10px;                    /* 内边距 */
+  transition: color 0.3s ease;      /* 按钮文字颜色过渡 */
+  outline: none;                   /* 去除焦点轮廓 */
+
+  /* 图标的样式 */
+  i {
+    font-size: 24px;
+    transition: opacity 0.3s ease;  /* 图标透明度过渡 */
+  }
+
+  &:hover {
+    color: var(--link-color);       /* 鼠标悬停时改变图标颜色 */
+    background-color: transparent;  /* 确保没有背景色 */
+  }
+
+  &:active,
+  &:focus {
+    background-color: transparent; /* 去除点击时的背景颜色 */
+    box-shadow: none;               /* 去除点击时的阴影效果 */
+    color: var(--link-color);       /* 保持点击时颜色 */
+  }
 }
