@@ -87,19 +87,24 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 
 ## 📚 Other Publications
 <div class='paper-box-text' markdown="1">
+
+### Journal
+
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">IEEE/ACM TASLP 2024</span> [APCodec: A Neural Audio Codec with Parallel Amplitude and Phase Spectrum Encoding and Decoding](https://arxiv.org/pdf/2402.10533), Yang Ai, Xiao-Hang Jiang, **Ye-Xin Lu**, Hui-Peng Du, Zhen-Hua Ling.
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">IEEE SPL 2023</span> [Long-frame-shift Neural Speech Phase Prediction with Spectral Continuity Enhancement and Interpolation Error Compensation](https://arxiv.org/pdf/2308.08850), Yang Ai, **Ye-Xin Lu**, Zhen-Hua Ling.
 
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://arxiv.org/pdf/2411.00464), Xiao-Hang Jiang, Yang Ai, Rui-Chen Zheng, Hui-Peng Du, **Ye-Xin Lu**, Zhen-Hua Ling.
-
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://arxiv.org/pdf/2410.04990), Fei Liu, Yang Ai, Hui-Peng Du, **Ye-Xin Lu**, Rui-Chen Zheng, Zhen-Hua Ling.
+### Conference
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INERSPEECH 2024</span> [BiVocoder: A Bidirectional Neural Vocoder Integrating Feature Extraction and Waveform Generation](https://www.isca-archive.org/interspeech_2024/du24_interspeech.pdf), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">NCMMSC 2023</span> [APNet2: High-Quality and High-Efficiency Neural Vocoder with Direct Prediction of Amplitude and Phase Spectra](https://arxiv.org/pdf/2311.11545), Hui-Peng Du, **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">NCMMSC 2022</span> [Source-Filter-Based Generative Adversarial Neural Vocoder for High Fidelity Speech Synthesis](https://arxiv.org/pdf/2304.13270), **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://arxiv.org/pdf/2411.00464), Xiao-Hang Jiang, Yang Ai, Rui-Chen Zheng, Hui-Peng Du, **Ye-Xin Lu**, Zhen-Hua Ling.
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://arxiv.org/pdf/2410.04990), Fei Liu, Yang Ai, Hui-Peng Du, **Ye-Xin Lu**, Rui-Chen Zheng, Zhen-Hua Ling.
 
 </div>
 
