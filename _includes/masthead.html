@@ -2,20 +2,29 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
         
+        <!-- 导航按钮 -->
+        <button><div class="navicon"></div></button>
+
         <ul class="visible-links">
-          <!-- 将主题切换按钮放在 <li> 标签内 -->
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="#about-me">Homepage</a>
+          </li>
+          
+          {% for link in site.data.navigation.main %}
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+          
+          <!-- 将主题切换按钮放入一个 <li> 中 -->
           <li class="masthead__menu-item masthead__menu-item--theme-toggle">
-            <button id="theme-toggle" class="theme-toggle-button"> 
+            <button id="theme-toggle" class="theme-toggle-button">
               <i id="sun-icon" class="fas fa-sun"></i> <!-- 太阳图标表示浅色模式 --> 
               <i id="moon-icon" class="fas fa-moon" style="display: none;"></i> <!-- 月亮图标表示深色模式 --> 
             </button>
           </li>
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
