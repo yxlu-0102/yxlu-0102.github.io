@@ -146,31 +146,30 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-/* Add flexbox to align menu and theme toggle button */
+/* 样式修改：使导航栏位于左侧，主题切换按钮位于右侧 */
 .masthead__inner-wrap {
-  display: flex;                /* 使用flex布局 */
-  justify-content: space-between; /* 导航栏与按钮在两侧 */
-  align-items: center;          /* 垂直居中对齐 */
+  display: flex;               /* 使用 flex 布局 */
+  justify-content: space-between;  /* 导航栏和按钮两端对齐 */
+  align-items: center;         /* 垂直居中对齐 */
 }
 
 .masthead__menu {
-  display: flex;                /* 使用flex布局 */
-  align-items: center;          /* 垂直居中对齐 */
+  display: flex;               /* 使用 flex 布局 */
+  align-items: center;         /* 垂直居中对齐 */
 }
 
 .masthead__menu ul {
-  display: flex;                /* 保证导航项在一行显示 */
-  list-style: none;             /* 去掉默认的列表样式 */
+  display: flex;               /* 保证导航项在一行显示 */
+  list-style: none;            /* 去掉默认的列表样式 */
 }
 
 .masthead__menu-item {
-  margin-right: 1rem;           /* 导航项之间的间隔 */
+  margin-right: 1rem;          /* 导航项之间的间隔 */
 }
 
 .masthead__theme-toggle {
-  display: flex;                /* 保证按钮和图标在一行显示 */
-  align-items: center;          /* 垂直居中对齐 */
-  margin-left: 1rem;            /* 按钮与导航栏之间的间隔 */
+  display: flex;               /* 使用 flex 布局 */
+  align-items: center;         /* 垂直居中对齐 */
 }
 
 .theme-toggle-button {
