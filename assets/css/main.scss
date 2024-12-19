@@ -96,7 +96,8 @@ button:hover {
   }
 
   &:hover {
-    color: var(--link-color);       /* 鼠标悬停时图标颜色 */
+    color: var(--link-color);       /* 鼠标悬停时改变图标颜色 */
+    background-color: transparent;  /* 确保没有背景色 */
   }
 
   &:active,
