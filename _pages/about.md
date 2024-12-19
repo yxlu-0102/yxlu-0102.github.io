@@ -104,6 +104,8 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">NCMMSC 2022</span> [Source-Filter-Based Generative Adversarial Neural Vocoder for High Fidelity Speech Synthesis](https://arxiv.org/pdf/2304.13270), **Ye-Xin Lu**, Yang Ai, Zhen-Hua Ling.
 
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [Pitch-and-Spectrum-Aware Singing Quality Assessment with Bias Correction and Model Fusion](https://arxiv.org/pdf/2411.11123), Yu-Fei Shi, Yang Ai, **Ye-Xin Lu**,, Hui-Peng Du, Zhen-Hua Ling.
+
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://arxiv.org/pdf/2411.00464), Xiao-Hang Jiang, Yang Ai, Rui-Chen Zheng, Hui-Peng Du, **Ye-Xin Lu**, Zhen-Hua Ling.
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://arxiv.org/pdf/2410.04990), Fei Liu, Yang Ai, Hui-Peng Du, **Ye-Xin Lu**, Rui-Chen Zheng, Zhen-Hua Ling.
