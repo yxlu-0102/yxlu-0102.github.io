@@ -3,14 +3,15 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
+
+        <!-- 将主题切换按钮移到 <ul> 外面，确保它在导航项旁边 -->
+        <button id="theme-toggle" class="theme-toggle-button"> 
+          <i id="sun-icon" class="fas fa-sun"></i> <!-- 太阳图标表示浅色模式 --> 
+          <i id="moon-icon" class="fas fa-moon" style="display: none;"></i> <!-- 月亮图标表示深色模式 --> 
+        </button>
+
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          
-          <!-- 主题切换按钮，放置在与导航并列的位置 -->
-          <button id="theme-toggle" class="theme-toggle-button"> 
-            <i id="sun-icon" class="fas fa-sun"></i> <!-- 太阳图标表示浅色模式 --> 
-            <i id="moon-icon" class="fas fa-moon" style="display: none;"></i> <!-- 月亮图标表示深色模式 --> 
-          </button>
           
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
