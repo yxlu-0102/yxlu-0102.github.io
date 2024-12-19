@@ -42,7 +42,7 @@ My main research interests lie in speech synthesis, speech enhancement, and spee
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by IEEE/ACM TASLP 2024</div><img src='images/publications/ap-bwe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ACM TASLP 2024</div><img src='images/publications/ap-bwe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards High-Quality and Efficient Speech Bandwidth Extension with Parallel Amplitude and Phase Prediction](https://arxiv.org/pdf/2401.06387)
