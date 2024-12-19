@@ -60,30 +60,6 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* 链接颜色 */
-a {
-    color: var(--link-color);          /* 普通状态的链接颜色 */
-    text-decoration: none;             /* 去除下划线 */
-    transition: color 0.3s ease;       /* 渐变效果 */
-}
-
-/* 当鼠标悬停在链接上时 */
-a:hover {
-    color: var(--link-color);          /* 悬停时颜色 */
-    text-decoration: underline;        /* 悬停时显示下划线 */
-}
-
-/* 已访问的链接颜色 */
-a:visited {
-    color: var(--link-color);          /* 点击后的颜色 */
-}
-
-/* 聚焦时的链接样式 */
-a:focus {
-    color: var(--link-color);          /* 点击后的颜色 */
-    outline: 2px solid var(--link-color);  /* 设置焦点状态的轮廓 */
-}
-
 /* 按钮样式 */
 button {
     padding: 10px 20px;
