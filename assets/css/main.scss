@@ -78,6 +78,13 @@ button:hover {
     background-color: #3700B3;
 }
 
+.masthead__inner-wrap {
+  display: flex;
+  justify-content: space-between; /* 使导航和按钮分别对齐左右 */
+  align-items: center; /* 垂直居中对齐 */
+  width: 100%;
+}
+
 .theme-toggle-button {
   background-color: transparent;  /* 无背景色 */
   border: none;                    /* 无边框 */
@@ -87,6 +94,7 @@ button:hover {
   padding: 10px;                    /* 内边距 */
   transition: color 0.3s ease;      /* 按钮文字颜色过渡 */
   outline: none;                   /* 去除焦点轮廓 */
+  margin-left: 20px; /* 可调整按钮与导航栏之间的间距 */
 
   /* 图标的样式 */
   i {
