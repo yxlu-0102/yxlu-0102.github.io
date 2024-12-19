@@ -53,13 +53,6 @@
     --link-color: #BB86FC;  /* 深色模式下的链接颜色（可以修改为你需要的颜色） */
 }
 
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-family: Arial, sans-serif;
-    transition: background-color 0.3s, color 0.3s;
-}
-
 /* 按钮样式 */
 button {
     padding: 10px 20px;
