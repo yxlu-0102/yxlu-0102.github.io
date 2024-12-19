@@ -107,48 +107,6 @@ button:hover {
   }
 }
 
-/* 太阳图标和月亮图标显示的控制 */
-  #sun-icon {
-    display: block; /* 太阳图标默认显示 */
-  }
-
-  #moon-icon {
-    display: none;  /* 月亮图标默认隐藏 */
-  }
-
-  /* 当页面处于深色模式时，显示月亮图标，隐藏太阳图标 */
-  [data-theme="dark"] #sun-icon {
-    display: none;
-  }
-
-  [data-theme="dark"] #moon-icon {
-    display: block;
-  }
-}
-
-/* masthead 部分 */
-.masthead__inner-wrap {
-  display: flex;              /* 使用 flexbox 布局，使菜单和按钮在同一行 */
-  justify-content: space-between; /* 使菜单靠左，按钮靠右 */
-  align-items: center;        /* 垂直居中对齐 */
-}
-
-.masthead__menu {
-  display: flex;              /* 使用 flexbox 布局使导航项在一行显示 */
-  align-items: center;        /* 垂直居中对齐 */
-}
-
-.masthead__menu ul {
-  display: flex;              /* 导航项在同一行排列 */
-  list-style: none;           /* 去除默认的列表样式 */
-  margin: 0;                  /* 去除不必要的外边距 */
-  padding: 0;                 /* 去除不必要的内边距 */
-}
-
-.masthead__menu-item {
-  margin-right: 1rem;         /* 每个导航项之间添加间距 */
-}
-
 .paper-box {
     display: flex;
     justify-content: left;
