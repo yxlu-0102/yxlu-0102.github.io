@@ -13,11 +13,21 @@
       </nav>
     </div>
 
-    <!-- 主题切换按钮，使用 Font Awesome 图标 -->
-    <button id="theme-toggle" class="theme-toggle-button">
-      <i id="sun-icon" class="fas fa-sun"></i> <!-- 太阳图标表示浅色模式 -->
-      <i id="moon-icon" class="fas fa-moon" style="display: none;"></i> <!-- 月亮图标表示深色模式 -->
-    </button>
-    
+    <!-- 主题切换按钮放置位置 -->
+    <div class="masthead__right">
+      <ul class="visible-links">
+        <li class="masthead__menu-item masthead__menu-item--lg">
+          <a href="#about-me">About Me</a> |
+        </li>
+        <li class="masthead__menu-item masthead__menu-item--lg">
+          <a href="#publications">Publications</a> |
+        </li>
+        <li class="masthead__menu-item">
+          <button class="theme-toggle-button" aria-label="Toggle Dark Mode">
+            <i class="fa fa-sun" id="theme-toggle-icon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
