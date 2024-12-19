@@ -44,7 +44,7 @@
 :root {
     --background-color: white;
     --text-color: black;
-    --link-color: #007BFF;
+    --link-color: #224B8D;
 }
 
 [data-theme="dark"] {
@@ -53,6 +53,15 @@
     --link-color: #BB86FC;
 }
 
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: 
+        var(--link-color);
+}
 button {
     padding: 10px 20px;
     background-color: var(--link-color);
