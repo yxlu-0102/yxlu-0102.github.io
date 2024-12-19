@@ -56,12 +56,14 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 a {
-    color: 
-        var(--link-color);
+    color: var(--link-color);
 }
+
 button {
     padding: 10px 20px;
     background-color: var(--link-color);
