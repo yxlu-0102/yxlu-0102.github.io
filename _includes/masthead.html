@@ -4,7 +4,18 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <!-- 主题切换按钮，放置在 Homepage 链接的左边 -->
+          <li class="masthead__menu-item masthead__menu-item--theme-toggle">
+            <button id="theme-toggle" class="theme-toggle-button"> 
+              <i id="sun-icon" class="fas fa-sun"></i> <!-- 太阳图标表示浅色模式 --> 
+              <i id="moon-icon" class="fas fa-moon" style="display: none;"></i> <!-- 月亮图标表示深色模式 --> 
+            </button>
+          </li>
+          
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="#about-me">Homepage</a>
+          </li>
+
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
@@ -12,11 +23,5 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
-    
-    <!-- 主题切换按钮，放置在与导航并列的位置 -->
-    <button id="theme-toggle" class="theme-toggle-button"> 
-      <i id="sun-icon" class="fas fa-sun"></i> <!-- 太阳图标表示浅色模式 --> 
-      <i id="moon-icon" class="fas fa-moon" style="display: none;"></i> <!-- 月亮图标表示深色模式 --> 
-    </button>
   </div>
 </div>
