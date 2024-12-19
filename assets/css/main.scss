@@ -78,22 +78,32 @@ button:hover {
     background-color: #3700B3;
 }
 
+/* 主题切换按钮样式 */
 .theme-toggle-button {
-  background-color: transparent;
-  border: none;
-  color: var(--text-color);
-  font-size: 24px;
-  cursor: pointer;
-  padding: 10px;
-  transition: color 0.3s ease;
+  background-color: transparent;  /* 无背景色 */
+  border: none;                    /* 无边框 */
+  color: var(--text-color);         /* 默认字体颜色 */
+  font-size: 24px;                  /* 图标大小 */
+  cursor: pointer;                 /* 鼠标指针 */
+  padding: 10px;                    /* 内边距 */
+  transition: color 0.3s ease;      /* 按钮文字颜色过渡 */
+  outline: none;                   /* 去除焦点轮廓 */
 
+  /* 图标的样式 */
   i {
     font-size: 24px;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;  /* 图标透明度过渡 */
   }
 
   &:hover {
-    color: var(--link-color);
+    color: var(--link-color);       /* 鼠标悬停时图标颜色 */
+  }
+
+  &:active,
+  &:focus {
+    background-color: transparent; /* 去除点击时的背景颜色 */
+    box-shadow: none;               /* 去除点击时的阴影效果 */
+    color: var(--link-color);       /* 保持点击时颜色 */
   }
 }
 
