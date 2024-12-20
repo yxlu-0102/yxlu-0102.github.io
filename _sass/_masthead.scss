@@ -14,32 +14,41 @@
   z-index: 20;
 
   &__inner-wrap {
-    @include container;
+    @include container;  // 使用包含的容器样式（通常设置了最大宽度）
     @include clearfix;
     padding: .5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: $x-large;  // 最大宽度设置
     }
 
-    // 设置为 table-row 以使子元素使用 table-cell 布局
     display: table-row;
-    width: 100%;
+    width: 100%;  // 确保占满整个父容器
+    text-align: center;  // 水平居中对齐内容
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
   }
 
-  // 为 masthead__menu 设置为 table-cell 布局，使其水平排列
+  // 为 masthead__menu 设置为 table-cell，使其在同一行内
   .masthead__menu {
-    display: table-cell;  // 使菜单项在同一行内
-    vertical-align: middle;  // 垂直居中对齐
-    white-space: nowrap;  // 防止菜单项换行
+    display: table-cell;  // 设置为表格单元格
+    vertical-align: middle;  // 垂直居中
+    white-space: nowrap;  // 防止换行
 
     ul {
       margin: 0;
       padding: 0;
       clear: both;
       list-style-type: none;
-      display: inline-block;  // 让菜单项水平排列
+      display: inline-block;  // 让列表项水平排列
+      text-align: left;  // 对齐菜单项
     }
   }
 }
