@@ -55,7 +55,7 @@
 
 .masthead__menu-home-item {
   @include breakpoint($medium) {
-    display: block !important;
+    display: inline-block !important;
   }
   display: none !important;
 }
@@ -67,7 +67,7 @@
   white-space: nowrap;  // 确保文本不换行
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 1em;
     font-weight: 700;
   }
 }
