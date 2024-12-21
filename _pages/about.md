@@ -72,7 +72,7 @@ by stage.
 </div>
 
 ## 🗣️ Speech Synthesis
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICASSP 2025</div><img src='images/publications/idea-tts.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by ICASSP 2025</div><img src='images/publications/idea-tts.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis
