@@ -118,4 +118,4 @@ Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synth
 - *2014.09 - 2017.06*, Anhui Nanling High School, Wuhu. 
 
 # 💻 Internships
-- Looking for 3-6 months internship opportunities of large-language-model (LLM) based speech synthesis.
+- *2022.07 - 2023.10*, Assistant Research Algorithm Engineer, iFLYTEK, Hefei.
