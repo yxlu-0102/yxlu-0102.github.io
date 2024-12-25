@@ -77,7 +77,7 @@ by stage.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by ICASSP 2025</div><img src='images/publications/idea-tts.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis
+[Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis](https://arxiv.org/pdf/2412.16977v1)
 
 **Ye-Xin Lu**, Hui-Peng Du, Zheng-Yan Sheng, Yang Ai, Zhen-Hua Ling
 
