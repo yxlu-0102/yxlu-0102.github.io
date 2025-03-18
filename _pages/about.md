@@ -25,7 +25,7 @@ I am currently a fourth-year Eng.D student at the National Engineering Research 
 <br>
 My CV can be downloaded [here](https://yxlu-0102.github.io/materials/CV-yxlu-2025-2.pdf).
 
-My main research interests lie in speech synthesis, speech enhancement, and speech encoding.
+My main research interests lie in text-to-speech synthesis, speech enhancement, and speech coding.
 
 # 📝 Publications 
 ## 🎙 Speech Enhancement 
