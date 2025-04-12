@@ -120,4 +120,5 @@ by stage.
 - *2014.09 - 2017.06*, Anhui Nanling High School, Wuhu. 
 
 # 💻 Internships
-- *2022.07 - 2023.10*, Assistant Research Algorithm Engineer, iFLYTEK, Hefei.
+- *2024.04 - present*, Tencent, AI Lab, Beijing.
+- *2022.07 - 2023.10*, iFLYTEK, Hefei.
