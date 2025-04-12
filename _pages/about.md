@@ -81,7 +81,7 @@ by stage.
 
 **Ye-Xin Lu**, Hui-Peng Du, Zheng-Yan Sheng, Yang Ai, Zhen-Hua Ling
 
-[**Demo Page**](https://yxlu-0102.github.io/IDEA-TTS) \| [![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/IDEA-TTS)
+[**Demo Page**](https://yxlu-0102.github.io/IDEA-TTS) \| [![](https://img.shields.io/github/stars/yxlu-0102/IDEA-TTS?style=social&label=IDEA-TTS Stars)](https://github.com/yxlu-0102/IDEA-TTS)
 - In this paper, we propose an Incremental Disentanglement-based Environment-Aware zero-shot text-to-speech (TTS) method, dubbed IDEA-TTS, that can synthesize speech for unseen speakers while preserving the acoustic characteristics of a given environment reference speech.
 - IDEA-TTS is capable of environment-robust TTS, environment-aware TTS, and environment conversion with a single model.
 </div>
