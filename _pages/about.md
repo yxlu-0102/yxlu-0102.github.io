@@ -74,14 +74,14 @@ by stage.
 </div>
 
 ## 🗣️ Speech Synthesis
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by ICASSP 2025</div><img src='images/publications/idea-tts.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/publications/idea-tts.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis](https://arxiv.org/pdf/2412.16977v1)
 
 **Ye-Xin Lu**, Hui-Peng Du, Zheng-Yan Sheng, Yang Ai, Zhen-Hua Ling
 
-[**Demo Page**](http://yxlu-0102.github.io/IDEA-TTS)
+[**Demo Page**](https://yxlu-0102.github.io/IDEA-TTS) \| [![](https://img.shields.io/github/stars/yxlu-0102/AP-BWE?style=social&label=AP-BWE Stars)](https://github.com/yxlu-0102/IDEA-TTS)
 - In this paper, we propose an Incremental Disentanglement-based Environment-Aware zero-shot text-to-speech (TTS) method, dubbed IDEA-TTS, that can synthesize speech for unseen speakers while preserving the acoustic characteristics of a given environment reference speech.
 - IDEA-TTS is capable of environment-robust TTS, environment-aware TTS, and environment conversion with a single model.
 </div>
