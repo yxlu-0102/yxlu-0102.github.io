@@ -36,6 +36,7 @@ My main research interests lie in text-to-speech synthesis, speech enhancement, 
 
 <div class='paper-box'>
   <div class='paper-box-image'><div><div class="badge">INTERSPEECH 2023</div><img src='images/publications/mp-senet.png' alt="sym" width="100%"></div></div>
+  <br>
   <div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src='images/publications/mp-senet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
