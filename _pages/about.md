@@ -93,6 +93,20 @@ by stage.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Interspeech 2025</div><img src='images/publications/codec_denoiser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Improving Noise Robustness of LLM-based Zero-shot TTS via Discrete Acoustic Token Denoising](https://arxiv.org/pdf/2505.13830)
+
+**Ye-Xin Lu**, Hui-Peng Du, Fei Liu, Yang Ai, Zhen-Hua Ling
+
+[**Demo Page**](https://yxlu-0102.github.io/NR-LauraTTS)
+- In this paper, we propose a novel neural codec-based speech denoiser and integrate it with the advanced LLM-based TTS model, LauraTTS, to achieve noise-robust zero-shot TTS.
+- The proposed codec denoiser outperforms state-of-the-art speech enhancement (SE) methods in DNSMOS-based metrics.
+- The proposed noise-robust LauraTTS (NR-LauraTTS) surpasses the approach using enhanced audio prompts with minimal impact on the model’s computational complexity.
+</div>
+</div>
+
 ## 📚 Other Publications
 <div class='paper-box-text' markdown="1">
 
