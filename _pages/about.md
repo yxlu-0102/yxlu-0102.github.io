@@ -27,6 +27,10 @@ My CV can be downloaded [here](https://yxlu-0102.github.io/materials/CV-yxlu-202
 
 My main research interests lie in text-to-speech synthesis, speech enhancement, and speech coding.
 
+# 🔥 News
+- *2025.05*: One conference paper is accepted by Interspeech 2025.
+- *2025.04*: One journal paper is accepted by Neural Networks.
+
 # 📝 Publications 
 ## 🎙 Speech Enhancement 
 
