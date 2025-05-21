@@ -34,10 +34,7 @@ My main research interests lie in text-to-speech synthesis, speech enhancement, 
 # 📝 Publications 
 ## 🎙 Speech Enhancement 
 
-<div class='paper-box'>
-  <div class='paper-box-image'><div><div class="badge">INTERSPEECH 2023</div><img src='images/publications/mp-senet.png' alt="sym" width="100%"></div></div>
-  <br>
-  <div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src='images/publications/mp-senet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2023 & Neural Networks 2025</div><img src='images/publications/mp-senet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MP-SENet: A Speech Enhancement Model with Parallel Denoising of Magnitude and Phase Spectra](https://www.isca-archive.org/interspeech_2023/lu23e_interspeech.pdf) (**Conference Version**)
