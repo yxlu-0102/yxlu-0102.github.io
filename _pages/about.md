@@ -94,7 +94,7 @@ by stage.
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Interspeech 2025</div><img src='images/publications/codec_denoiser.png' alt="sym" width="100%"></div></div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Interspeech 2025</div><img src='images/publications/NR-LauraTTS.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Interspeech 2025</div><img src='images/publications/NR-LauraTTS.png' alt="sym" width="100%"></div></div> -->
 <div class='paper-box-text' markdown="1">
 
 [Improving Noise Robustness of LLM-based Zero-shot TTS via Discrete Acoustic Token Denoising](https://arxiv.org/pdf/2505.13830)
