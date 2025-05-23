@@ -93,7 +93,7 @@ by stage.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2025</div><img src='images/publications/NR-LauraTTS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2025</div><img src='images/publications/codec-denoiser.png' alt="sym" width="100%"></div></div>
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Interspeech 2025</div><img src='images/publications/codec_denoiser.png' alt="sym" width="100%"></div></div> -->
 <div class='paper-box-text' markdown="1">
 
