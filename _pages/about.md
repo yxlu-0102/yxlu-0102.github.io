@@ -28,6 +28,7 @@ My CV can be downloaded [here](https://yxlu-0102.github.io/materials/Ye-Xin-Lu-C
 My main research interests lie in text-to-speech synthesis, speech enhancement, and speech coding.
 
 # 🔥 News
+- *2025.05*: I have been awarded a scholarship by the China Scholarship Council (CSC) to visit the National Institute of Informatics for six months, under the supervision of Prof. [Junichi Yamagishi](https://yamagishilab.jp).
 - *2025.05*: One conference paper is accepted by Interspeech 2025.
 - *2025.04*: One journal paper is accepted by Neural Networks.
 
