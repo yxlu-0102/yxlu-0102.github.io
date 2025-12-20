@@ -142,5 +142,6 @@ by stage.
 - *2014.09 - 2017.06*, Anhui Nanling High School, Wuhu. 
 
 # 💻 Internships
+- *2025.10 - 2026.04*, NII, Yamagishi Lab, Tokyo.
 - *2025.04 - 2025.09*, Tencent, AI Lab, Beijing.
 - *2022.07 - 2023.10*, iFLYTEK, Hefei.
