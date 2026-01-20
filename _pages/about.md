@@ -28,9 +28,8 @@ My CV can be downloaded [here](https://yxlu-0102.github.io/materials/Ye-Xin-Lu-C
 My main research interests lie in text-to-speech synthesis, speech enhancement, and speech coding.
 
 # 🔥 News
+- *2026.01*: One conference paper is accepted by ICASSP 2026.
 - *2025.05*: I have been awarded a scholarship by the China Scholarship Council (CSC) to visit the National Institute of Informatics for six months, under the supervision of Prof. [Junichi Yamagishi](https://yamagishilab.jp).
-- *2025.05*: One conference paper is accepted by Interspeech 2025.
-- *2025.04*: One journal paper is accepted by Neural Networks.
 
 # 📝 Publications 
 ## 🎙 Speech Enhancement 
@@ -106,6 +105,20 @@ by stage.
 - In this paper, we propose a novel neural codec-based speech denoiser and integrate it with the advanced LLM-based TTS model, LauraTTS, to achieve noise-robust zero-shot TTS.
 - The proposed codec denoiser outperforms state-of-the-art speech enhancement (SE) methods in DNSMOS-based metrics.
 - The proposed noise-robust LauraTTS (NR-LauraTTS) surpasses the approach using enhanced audio prompts with minimal impact on the model’s computational complexity.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/publications/daien-tts.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DAIEN-TTS: Disentangled Audio Infilling for Environment-Aware Text-to-Speech Synthesis](https://arxiv.org/pdf/2509.14684)
+
+**Ye-Xin Lu**, Yu Gu, Kun Wei, Yang Ai, Hui-Peng Du, Zhen-Hua Ling
+
+[**Demo Page**](https://yxlu-0102.github.io/DAIEN-TTS/)
+- In this paper, we propose DAIEN-TTS, the first environment-aware zero- shot TTS framework capable of disentangling and independently controlling timbre and time-varying background environments.
+- We introduce a cross-attention-based conditioning scheme for effective environment control, and further enhance generation controllability at inference with DCFG and SNR adaptation.
+- Extensive experiments show that DAIEN-TTS achieves high naturalness, speaker similarity, and environmental fidelity across both objective and subjective evaluations.
 </div>
 </div>
 
