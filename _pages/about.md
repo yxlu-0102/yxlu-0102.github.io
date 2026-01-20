@@ -93,7 +93,7 @@ by stage.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2025</div><img src='images/publications/nr-lauratts.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2025</div><img src='images/publications/nr-lauratts.pdf' alt="sym" width="100%"></div></div>
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Interspeech 2025</div><img src='images/publications/codec_denoiser.png' alt="sym" width="100%"></div></div> -->
 <div class='paper-box-text' markdown="1">
 
@@ -108,7 +108,7 @@ by stage.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/publications/daien-tts.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/publications/daien-tts.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DAIEN-TTS: Disentangled Audio Infilling for Environment-Aware Text-to-Speech Synthesis](https://arxiv.org/pdf/2509.14684)
